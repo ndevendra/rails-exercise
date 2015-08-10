@@ -1,0 +1,29 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<%= form_for@user do |f| %>
+<div class="form_group">
+<%= f.label :firstname %>
+<%= f.text_field :firstname %>
+</div>
+<div class="form_group">
+<%= f.label :lastname %>
+<%= f.text_field :lastname %>
+</div>
+<div class="form_group">
+<%= f.label :designation %>
+<%= f.text_field :designation %>
+</div>
+<div class="form_group">
+<%= f.label :origin %>
+<%= f.text_field :origin %>
+</div>
+<div class="form_group">
+<%= f.submit :Submit %>
+</div>
+<% end %>
+</body>
+</html>
